@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## AIガール：「ディープラーニングチョットわかる」ふりが出来る本のサポートページへようこそ！！
 
 You can use the [editor on GitHub](https://github.com/lilium513/aigirls-gijutsushoten6/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
