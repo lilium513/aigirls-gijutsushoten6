@@ -1,157 +1,121 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>index.md</title>
-<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+  <head>
+    <title>AIガール</title>
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
 
-<style>
-/*---------------------------------------------------------------------------------------------
- *  Copyright (c) Microsoft Corporation. All rights reserved.
- *  Licensed under the MIT License. See License.txt in the project root for license information.
- *--------------------------------------------------------------------------------------------*/
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-body {
-	font-family: "Segoe WPC", "Segoe UI", "SFUIText-Light", "HelveticaNeue-Light", sans-serif, "Droid Sans Fallback";
-	font-size: 14px;
-	padding: 0 12px;
-	line-height: 22px;
-	word-wrap: break-word;
-}
+  <body>
+        <nav class="navbar  fixed-top navbar-expand-sm  navbar-light bg-light md-7">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav4" aria-controls="navbarNav4" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" href="#">AIガール</a>
 
-#code-csp-warning {
-	position: fixed;
-	top: 0;
-	right: 0;
-	color: white;
-	margin: 16px;
-	text-align: center;
-	font-size: 12px;
-	font-family: sans-serif;
-	background-color:#444444;
-	cursor: pointer;
-	padding: 6px;
-	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
-}
-
-#code-csp-warning:hover {
-	text-decoration: none;
-	background-color:#007acc;
-	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
-}
+                <div class="collapse navbar-collapse navbar-fixed-top  justify-content-end navbar-expand-md" id="navbarNav4">
 
 
-body.scrollBeyondLastLine {
-	margin-bottom: calc(100vh - 22px);
-}
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#about">あらすじ</a>
+                    </li>
+                  </ul>
+                  <ul class="navbar-nav">
+                        <li class="nav-item">
+                          <a class="nav-link" href="#sample">サンプル</a>
+                        </li>
+                      </ul>
 
-body.showEditorSelection .code-line {
-	position: relative;
-}
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#mokuji">目次</a>
+                    </li>
 
-body.showEditorSelection .code-active-line:before,
-body.showEditorSelection .code-line:hover:before {
-	content: "";
-	display: block;
-	position: absolute;
-	top: 0;
-	left: -12px;
-	height: 100%;
-}
+                  </ul>
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#seigo">正誤表</a>
+                    </li>
+                    </ul>
+                    <ul class="navbar-nav">
+                            <li class="nav-item">
+                              <a class="nav-link" href="#source">作中で使われているソースコード</a>
+                            </li>
+                  </ul>
+                  <ul class="navbar-nav">
+                        <li class="nav-item">
+                          <a class="nav-link" href="#contact">お問い合わせ</a>
+                        </li>
+                        </ul>
+                </div>
+              </nav>
 
-body.showEditorSelection li.code-active-line:before,
-body.showEditorSelection li.code-line:hover:before {
-	left: -30px;
-}
 
-.vscode-light.showEditorSelection .code-active-line:before {
-	border-left: 3px solid rgba(0, 0, 0, 0.15);
-}
+    <div class="container">
 
-.vscode-light.showEditorSelection .code-line:hover:before {
-	border-left: 3px solid rgba(0, 0, 0, 0.40);
-}
 
-.vscode-dark.showEditorSelection .code-active-line:before {
-	border-left: 3px solid rgba(255, 255, 255, 0.4);
-}
+      <div class="row  pt-auto mt-5 pt-5">
 
-.vscode-dark.showEditorSelection .code-line:hover:before {
-	border-left: 3px solid rgba(255, 255, 255, 0.60);
-}
 
-.vscode-high-contrast.showEditorSelection .code-active-line:before {
-	border-left: 3px solid rgba(255, 160, 0, 0.7);
-}
+        <div class="col-md-8 order-md-1 text-center text-md-left pr-md-5 mt-5">
 
-.vscode-high-contrast.showEditorSelection .code-line:hover:before {
-	border-left: 3px solid rgba(255, 160, 0, 1);
-}
+                <div class="row  ">
+          <p class="lead">
+                - 『面倒な環境構築なしで、ディープラーニングを動かしてみたい！』<br>
+ - 『数式を追うのはつらいけど、ディープラーニングの気持ちを知りたい！』<br>
+- 『仲良し高校生の女の子たちとディープラーニングを勉強したい！』<br>          </p>
 
-img {
-	max-width: 100%;
-	max-height: 100%;
-}
+<p >本書はそんな方のための、用意されたハンズオンを実際に動かしながら、楽しくディープラーニングを学べる本です。</p>
+        <p >ひょんなことからディープラーニングにチャレンジすることになった高校生の女の子と一緒に、ディープラーニングのすごさ、難しさ、そして面白さを、体感してみませんか？
+          </p>      </div>
 
-a {
-	color: #4080D0;
-	text-decoration: none;
-}
+                <div class="row my-3">
+          <h1 class="display-7" >
+            <b
+              > AIガール:
+              <br />「ディープラーニングチョットわかる」<br /> ふりが出来る本</b
+            >
+          </h1>
+        </div>
 
-a:focus,
-input:focus,
-select:focus,
-textarea:focus {
-	outline: 1px solid -webkit-focus-ring-color;
-	outline-offset: -1px;
-}
+          <h2 class="mt-3">技術書典6 <b style="color:red;">こ22</b>で頒布！！</h2>
 
-hr {
-	border: 0;
-	height: 2px;
-	border-bottom: 2px solid;
-}
+        </div>
 
-h1 {
-	padding-bottom: 0.3em;
-	line-height: 1.2;
-	border-bottom-width: 1px;
-	border-bottom-style: solid;
-}
+        <div class=" col-md-4 order-md-2">
+                <p><img class="img-responsive center-block"  src="unnamed.png" alt="表紙" /></p>
 
-h1, h2, h3 {
-	font-weight: normal;
-}
+        </div>
 
-h1 code,
-h2 code,
-h3 code,
-h4 code,
-h5 code,
-h6 code {
-	font-size: inherit;
-	line-height: auto;
-}
+      </div>
 
-a:hover {
-	color: #4080D0;
-	text-decoration: underline;
-}
 
-table {
-	border-collapse: collapse;
-}
 
-table > thead > tr > th {
-	text-align: left;
-	border-bottom: 1px solid;
-}
+    </div>
 
-table > thead > tr > th,
-table > thead > tr > td,
-table > tbody > tr > th,
-table > tbody > tr > td {
-	padding: 5px 10px;
-}
+
 
 table > tbody > tr + tr > td {
 	border-top: 1px solid;
