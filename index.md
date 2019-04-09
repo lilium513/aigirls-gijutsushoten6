@@ -1,37 +1,58 @@
-## AIガール：「ディープラーニングチョットわかる」ふりが出来る本のサポートページへようこそ！！
+# 1. AIガール：「ディープラーニングチョットわかる」ふりが出来る本のサポートページへようこそ！！
 
-You can use the [editor on GitHub](https://github.com/lilium513/aigirls-gijutsushoten6/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+AIガール：「ディープラーニングチョットわかる」ふりが出来る本
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+![表紙](unnamed.png)
 
-### Markdown
+- [1.1. 内容](#11-内容)
+- [1.2. 目次](#12-目次)
+- [1.3. 正誤表](#13-正誤表) 
+- [1.4. 作中で使われているソースコードへのリンク](#14-関連リンク)
+- [1.5. お問い合わせ](#15-お問い合わせ)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## 1.1. 内容
 
-```markdown
-Syntax highlighted code block
+『面倒な環境構築なしで、ディープラーニングを動かしてみたい』  
+『数式を追うのはつらいけど、ディープラーニングの気持ちを知りたい』
 
-# Header 1
-## Header 2
-### Header 3
+本書はそんな方のための、高校生の女の子たちと共に、用意されたハンズオンを動かしながらディープラーニングを学ぶ、物語形式の書籍です。
 
-- Bulleted
-- List
+一章では、ディープラーニングの構成技術であるニューラルネットを、実際に動かしながら学びます。  
+二章では、画像データに用いられる畳み込みニューラルネットワーク（CNN）を動かしながら、CNNの構造に込められた”画像データを上手に扱うための工夫”を見ていきます。  
+三章では、実際に収集した画像によるって、桜と梅の分類を行うCNNを学習します。
 
-1. Numbered
-2. List
+アルゴリズムは、数式を用いない、ふんわりとしたイメージによる説明を行います。ハンズオンには、オンライン実行環境であるGoogle Colaboatoryを用います。ローカルでの環境構築は必要ありません。
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
+## 1.2. 目次
+目次]
+第1章 ディープラーニングを動かしてみよう  
+ディープラーニング、完全に理解したい！  
+ディープラーニング、動かす！  
+ニューラルネットのしくみ  
+ディープラーニング、完全に理解した？:まとめ  
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+第2章 画像でディープラーニング！:CNN  
+CNN、動かす！  
+学習にGPUを使おう  
+CNNのしくみ  
+CNNってすごいね！：まとめ  
 
-### Jekyll Themes
+第3章 自作データセットで桜・梅分類器を作ろう！  
+自分のデータでCNNを学習しよう  
+データを増やそう  
+転移学習で巨人の肩に乗ろう  
+ディープラーニング、チョットわかる？:まとめ  
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/lilium513/aigirls-gijutsushoten6/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## 1.3. 正誤表
+随時追加いたします。
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## 1.4. 作中で使われているソースコードへのリンク
+iter1 
+https://bit.ly/2UlHnvi
+
+## 1.5. お問い合わせ
+
+aigirls.teamsommelier☆☆gmail.com までお願いします  
+(☆☆ を @ に変えてください)
