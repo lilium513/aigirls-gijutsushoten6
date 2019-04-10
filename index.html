@@ -36,6 +36,9 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/lity/1.6.6/lity.css' />  
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/lity/1.6.6/lity.js'></script>  
     <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
 
@@ -72,7 +75,7 @@
   
         <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="#cards">サンプル</a>
+              <a class="nav-link" href="#cards">この本の特徴</a>
             </li>
           </ul>
   
@@ -134,10 +137,16 @@
             最初の20Pが読めるサンプルは<br>こちら！！(6.7MB)
         </div>
       </button>
+      <div class="row mt-3">
+        <div class="col-12">
+          <button  onclick="location.href='http://twitter.com/intent/tweet?url=https://lilium513.github.io/aigirls-gijutsushoten6/&text=AIガール:ディープラーニングチョットわかるふりが出来る本&hashtags=技術書典6'" type="button" class="btn btn-primary mb-2"> 
+            この本をTwitterでシェア！</button>
+          </div>
+          </div>
           </div>
 
         <div class="col-md-8  " >
-            <div class="row mt-3">
+            <div class="row mt-4">
                 <h1 class="display-7">
                   <b>
                     AIガール: <br />ディープラーニングチョットわかる<br /><span class="glyphicon glyphicon-apple" aria-hidden="true"></span>
@@ -208,16 +217,18 @@
       <div id = "cards" class="row jump-from-bar border-bottom row-eq-height mb-2 pb-2">
           <div class="row">
               <div class="col-sm-12 col-md-12">
-              <h2>サンプル</h2>
+              <h2>この本の特徴</h2>
             </div>
           </div>
           <div class="row">
               <div class="col-sm-4 col-md-4">
                 <div class="card img-thumbnail">
-                  <img class="card-img-top" src="05.png" alt="画像">
+                    <a href="jinobunn.png" data-lity="data-lity">  
+                  <img class="card-img-top" src="jinobunn.png" alt="画像">
+                  </a>
                   <div class="card-body px-2 py-3">
-                    <h4 class="card-title">目次と人物紹介</h4>
-                    <p class="card-text">個性豊かなキャラクターたちが作品を盛り上げていきます</p>
+                    <h4 class="card-title">物語仕立て</h4>
+                    <p class="card-text">個性豊かなキャラクターたちが織りなすストーリーを楽しもう</p>
 
             
                   </div><!-- /.card-body -->
@@ -226,20 +237,24 @@
               
                 <div class="col-sm-4 col-md-4">
                   <div class="card img-thumbnail">
-                    <img class="card-img-top" src="07.png" alt="画像">
+                      <a href="neural".png" data-lity="data-lity">  
+                    <img class="card-img-top" src="neural.png" alt="画像">
+                    </a>
                     <div class="card-body px-2 py-3">
-                      <h4 class="card-title">専門書を読んだ主人公</h4>
-                      <p class="card-text">こんな風になっちゃう人でもこの本なら大丈夫</p>
+                      <h4 class="card-title">対話形式での丁寧な説明</h4>
+                      <p class="card-text">難しい用語や理論も優しいキャラクターが丁寧に説明してくれる</p>
               
                     </div><!-- /.card-body -->
                   </div><!-- /.card -->
                 </div><!-- /.col-sm-6.col-md-3 -->
                   <div class="col-sm-4 col-md-4">
                     <div class="card img-thumbnail">
-                      <img class="card-img-top" src="09.png" alt="画像">
+                        <a href="handson.png" data-lity="data-lity">  
+                      <img class="card-img-top" src="handson.png" alt="画像">
+                      </a>
                       <div class="card-body px-2 py-3">
-                        <h4 class="card-title">対話形式での説明</h4>
-                        <p class="card-text">ちょっと難しい内容も、優しい先輩が丁寧に教えてくれます</p>
+                        <h4 class="card-title">ハンズオンで手を動かす</h4>
+                        <p class="card-text">準備が要らない環境で、実際にディープラーニングを動かしてみよう</p>
                 
                       </div><!-- /.card-body -->
                     </div><!-- /.card -->
@@ -359,7 +374,7 @@
       </div>
       <div class="row">
           <div class="col-sm-3 col-md-3">
-              KJ(文章)<br>都の西北大情報系M2<br>
+              KJ(文章・サポートページ作成)<br>都の西北大情報系M2<br>
               百合(花じゃない方)に傾倒してたら就活が危ういので、内定をくださる心の優しい方を探しています。
               <br>P.S. やがて君になる7巻は4/26発売です。
               <br>twitter @cookieices
